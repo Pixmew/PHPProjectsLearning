@@ -8,10 +8,10 @@
     <form class="CalculatorInput" action="Calculator.php" method="GET">
         Number 1 :<input type="number" name="number1">
         Number 2 :<input type="number" name="number2"><br>
-        Addition :<input type="checkbox" name="addition">
-        Substraction :<input type="checkbox" name="substraction">
-        Multiplication :<input type="checkbox" name="multiplication">
-        Division :<input type="checkbox" name="division">
+        Addition :<input type="checkbox" name="addition"><br>
+        Substraction :<input type="checkbox" name="substraction"><br>
+        Multiplication :<input type="checkbox" name="multiplication"><br>
+        Division :<input type="checkbox" name="division"><br>
         <br>
         <input type="submit" name="submit" >
     </form>
