@@ -17,6 +17,7 @@
     </form>
     <br>
         <?php
+            error_reporting(0);
             $numbers = $_POST["number"];
             if($_POST["addition"]){
                 echo ($numbers[0] + $numbers[1]);
