@@ -8,7 +8,7 @@
       Complex Calculation Calculatior
       <form class="" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
           <input type="number" name="inputnumber" value="0"><br>
-          <input type="button" name="square" value="square">
+          <input type="submit" name="square" value="square">
       </form>
   </body>
 </html>
