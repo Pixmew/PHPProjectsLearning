@@ -37,6 +37,10 @@
         echo "equal";
       }
 
+      $str = "yash";
+      $str .= "hi ";
+      echo $str;
+
     ?>
   </body>
 </html>
