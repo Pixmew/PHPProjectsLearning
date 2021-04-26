@@ -7,18 +7,18 @@
   <body>
       <?php
       $number = 0;
-      echo "using while loop:<br>";
+      echo "Using while loop:<br>";
       while ($number <= 10) {
         echo $number." ";
         $number++;
       }
-      echo "<br><br>using do while loop<br>";
+      echo "<br><br>Using do while loop<br>";
       $number = 10;
       do{
         echo $number." ";
         $number--;
       }while($number >= 0);
-      echo "<br><br> using for loop<br>";
+      echo "<br><br>Using for loop<br>";
       $number = 0;
       for($i = 0 ; $i <= 10 ; $i++){
         echo $number." ";
