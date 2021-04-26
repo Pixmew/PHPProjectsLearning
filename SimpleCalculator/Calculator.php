@@ -18,20 +18,23 @@
     <br>
         <?php
             error_reporting(0);
-            $numbers = $_POST["number"];
-            if($_POST["addition"]){
+            if(isset($_POST["number"])){
+              $numbers = $_POST["number"];
+              if($_POST["addition"]){
 
-                echo "Addition is -> ".($numbers[0] + $numbers[1]);
+                  echo "Addition is -> ".($numbers[0] + $numbers[1]);
+              }
+              if($_POST["substraction"]){
+                  echo "Substration is -> ".($numbers[0] - $numbers[1]);
+              }
+              if($_POST["multiplication"]){
+                  echo "Multiplication is -> ".($numbers[0] * $numbers[1]);
+              }
+              if($_POST["division"]){
+                echo "Division is -> ".($numbers[0] / $numbers[1]);
+              }
             }
-            if($_POST["substraction"]){
-                echo "Substration is -> ".($numbers[0] - $numbers[1]);
-            }
-            if($_POST["multiplication"]){
-                echo "Multiplication is -> ".($numbers[0] * $numbers[1]);
-            }
-            if($_POST["division"]){
-              echo "Division is -> ".($numbers[0] / $numbers[1]);
-            }
+
         ?>
   </body>
 </html>
