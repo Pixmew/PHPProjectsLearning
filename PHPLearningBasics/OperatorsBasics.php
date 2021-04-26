@@ -37,10 +37,11 @@
         echo "equal";
       }
 
-      $str = "yash";
+      $str = "yash <br>";
       $str .= "hi ";
       echo $str;
-
+      $y = ($firstNumber > $secondNumber)?"first":"second";
+      echo $y;
     ?>
   </body>
 </html>
