@@ -17,7 +17,9 @@
     </form>
     <br>
         <?php
+        //Error Suppression
             error_reporting(0);
+
             if(isset($_POST["number"])){
               $numbers = $_POST["number"];
               if($_POST["addition"]){
